@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="text"><b>This is a text</b></p>
+<script>
+    text.addEventListener("mouseover", aa)
+    text.addEventListener("mouseout", bb)
+
+    function aa() {
+        document.getElementById("text").style.color = "red"
+    }
+
+    function bb() {
+        document.getElementById("text").style.color = "purple"
+    }
+</script>
+<p id="paragraph" onmouseover="MouOver()" onmouseout="MouOut()"><i>This is a paragraph</i></p>
+<script>
+    function MouOver() {
+        document.getElementById("paragraph").innerText = "My name is Huynh Thanh Tung"
+    }
+
+    function MouOut() {
+        document.getElementById("paragraph").innerText = "This is a paragraph"
+    }
+</script>
+</body>
+</html>

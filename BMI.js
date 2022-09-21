@@ -1,6 +1,5 @@
 function checkBMI() {
     let weight = Number(document.getElementById('weight').value);
-
     let height = Number(document.getElementById('height').value);
     let result, BMI;
 
